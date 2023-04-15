@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 18px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px 50px;
+    min-width: 200px;
+}
+
+nav a:hover {
+    background-color: #000;
+    color: white;
+}
+
+body {
+    font-family: 'Open Sans';
+    background-image: url(/img/fondocontacto.png);
+    background-size: cover;
+    background-attachment: fixed; /* para que todo se mueva, menos la imagen */
+}
+
+.form-title {
+    font-weight: normal;
+    font-family: sans-serif;
+    text-align: center;
+    color:#d5f313
+}
+
+
+.contenedor, .form{
+background: linear-gradient(rgba(45, 41, 41, 0.3), rgba(0, 0, 0, 0.3));
+width: 90%;
+max-width: 600px;
+margin: auto;
+padding: 5px 35px;
+margin-top: 50px;
+padding-top: 30px;
+border-radius: 3px;
+}
+
+/*Texto encima de las cajas*/
+.contenedor, .form, .form-label{
+display: block;
+font-size: 16px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+position: relative;
+color:orange;
+margin-bottom: 5px;
+}
+
+/*Caja para escribir*/
+.contenedor, .form, .form-input, .form-textarea{
+background: rgba(0, 0, 0, 0.60);
+border: none;
+outline: none;
+width: 100%;
+border-bottom: 2px solid rgb(255, 255, 255);
+padding: 12px;
+margin-bottom: 20px;
+border-radius: 5px;
+font-size: 14px;
+color: #ffffff;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Boton de enviar*/
+
+.btn-submit{
+width: 100%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgb(165, 88, 6);
+font-size: 15px;
+border: none;
+color: black;
+padding: 15px 0;
+transition: all .6s ease;
+cursor: pointer;
+}
+
+/*Color antes animacion*/
+.btn-submit:hover{
+background: #d5f313;}
