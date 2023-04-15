@@ -29,7 +29,7 @@ nav a:hover {
 
 body {
     font-family: 'Open Sans';
-    background-image: url(/img/fondocontacto.png);
+    background-image: url(img/fondocontacto.png);
     background-size: cover;
     background-attachment: fixed; /* para que todo se mueva, menos la imagen */
 }
